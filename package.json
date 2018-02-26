@@ -1,0 +1,28 @@
+{
+  "name": "dev-elevate",
+  "version": "0.0.1",
+  "description": "Simple blog page to capture setup proceedures and solution to challenges encountered while setting up an enterprise level node application on a windows server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charl-Marais/dev-elevate.git"
+  },
+  "author": "Charl Marais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charl-Marais/dev-elevate/issues"
+  },
+  "homepage": "https://github.com/Charl-Marais/dev-elevate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.34.0",
+    "sequelize-cli": "^4.0.0"
+  }
+}
